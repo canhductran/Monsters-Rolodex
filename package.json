@@ -1,12 +1,12 @@
 {
   "name": "monsters-rolodex",
+  "homepage": "https://canhductran.github.io/monsters-rolodex",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "3.1.1"
   },
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
